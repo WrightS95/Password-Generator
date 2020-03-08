@@ -24,7 +24,7 @@ for number in range(int(num_of_spec_char)):
     spec_password.append(random.choice(spec_options))
 
 password = []
-chosen2 = ""
+
 numbers = int(num_of_numbers)
 letters = int(num_of_letters)
 spec_char = int(num_of_spec_char)
