@@ -10,7 +10,6 @@ num_of_numbers = int(input("How many numbers would you like in your password? ")
 num_of_spec_char = int(input("How many special characters would you like in your password? "))
 total = num_of_numbers+num_of_letters+num_of_spec_char
 
-
 letters_password = []
 numbers_password = []
 spec_password = []
@@ -27,14 +26,11 @@ for number in range(num_of_spec_char):
     spec_password.append(random.choice(spec_options))
 
 password = []
-
 new_list = letters_password + numbers_password + spec_password
-
 
 for index in range(total):
     chooser = random.choice(new_list)
     password.append(chooser)
-
 if max_of_char < total:
     print("WARNING: The sum of characters is greater than the maximum char")
 print(''.join(password))
