@@ -1,4 +1,3 @@
-
 #asks how many letters they want in their password
 #asks how many numbers
 #asks how many special characters
@@ -28,6 +27,7 @@ for number in range(num_of_spec_char):
     spec_password.append(random.choice(spec_options))
 
 password = []
+
 new_list = letters_password + numbers_password + spec_password
 
 
