@@ -1,4 +1,3 @@
-
 #asks how many letters they want in their password
 #asks how many numbers
 #asks how many special characters
